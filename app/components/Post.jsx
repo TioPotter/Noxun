@@ -21,7 +21,7 @@ const Post = ({ post, expand }) => {
         className="flex cursor-pointer flex-col justify-between rounded-md border p-4 shadow-sm transition-shadow hover:shadow-md"
       >
         <Link
-          href={`http://localhost:3000/detail/${post.id}`}
+          href={`/detail/${post.id}`}
           className="mb-2 rounded-md bg-blue-600 px-2 py-1 text-xl font-bold"
         >
           {post.title}

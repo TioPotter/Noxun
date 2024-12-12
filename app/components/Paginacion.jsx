@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Paginacion = ({pageNum, page, handlePageChange}) => {
-    
+    // handlePageChange(pageNum)
   return (
     <button
             key={pageNum}
